@@ -2,10 +2,12 @@
 #include <stdio.h>
 #include <time.h>
 
-/**
- * This program will assign a random number to the variable n each time it is executed.
+ /**
+ * Program will assign a random number to the variable n, 
+ * each time it is executed.
+ * Description: use the main function.
  * main - entry point of program.
- * Return 0 after the program runs.
+ * Return: 0 after the program runs.
  */
 
 int main(void)  /*entry point of function*/
