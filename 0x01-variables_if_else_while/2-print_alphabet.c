@@ -1,6 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
 
 /**
  * Description: main function prints the alphabet in lowercase
@@ -9,6 +7,10 @@
  */
 int main(void)
 {
-char l; for (l = 'a', l <= 'z', ++l)
+char l;
+for (l = 'a', l <= 'z', ++l)
+{
 	putchar(l);
+}
+putchar('\n');
 return (0); }	
