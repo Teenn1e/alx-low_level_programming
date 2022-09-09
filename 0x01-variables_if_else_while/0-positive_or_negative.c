@@ -3,12 +3,12 @@
 #include <time.h>
 
 /**
- * betty style doc for function main goes there
- * main - entry point of program
- * Return 0
+ * This program will assign a random number to the variable n each time it is executed.
+ * main - entry point of program.
+ * Return 0 after the program runs.
  */
 
-int main(void)
+int main(void)  /*entry point of function*/
 {
 
 	int n;
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("%i is positive\n", n);
 	}
-	if (n == 0)
+	else if (n == 0)
 	{
 		printf("%i is zero\n", n);
 	}
