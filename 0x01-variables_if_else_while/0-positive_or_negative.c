@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- * Description: use the main function print n.
  * main - entry point of program.
  * Return: 0 after the program runs(success)
  */
