@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Description: main function prints upper and lowercase alphabets
- * Main - entry point of function
- * Return: 0 after running
+ * main - entry point of function print alphabets
+ * Description: using the main function
+ * Return: 0 when the program is run
  */
 int main(void)
 {
