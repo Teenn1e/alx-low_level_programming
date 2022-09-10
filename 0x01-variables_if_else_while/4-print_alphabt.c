@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * Description: main function prints alphabets
- * main - entry point of function
+ * main - entry point of function print alphabets
+ * Description: using the main function
  * Return: 0
  */
 int main(void)
