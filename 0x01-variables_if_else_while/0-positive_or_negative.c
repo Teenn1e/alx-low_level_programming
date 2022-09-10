@@ -2,33 +2,30 @@
 #include <stdio.h>
 #include <time.h>
 
- /**
- * Program will assign a random number to the variable n, 
- * each time it is executed.
- * Description: use the main function.
+/**
+ * Description: use the main function print n.
  * main - entry point of program.
- * Return: 0 after the program runs.
+ * Return: 0 after the program runs(success)
  */
 
 int main(void)  /*entry point of function*/
 {
+int n; /*variable to assign random no*/
 
-	int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	if (n > 0)
-	{
-		printf("%i is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%i is zero\n", n);
-	}
-	else
-	{
-		printf("%i is negative\n", n);
-	}
-	return (0);
+if (n > 0)
+{
+	printf("%i is positive\n", n);
+}
+else if (n == 0)
+{
+	printf("%i is zero\n", n);
+}
+else
+{
+	printf("%i is negative\n", n);
+}
+return (0);
 }
