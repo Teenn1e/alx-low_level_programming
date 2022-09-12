@@ -13,7 +13,7 @@ int c;
 
 for (i = 0; i <= 9; i++)
 {
-	for (c = 1; c <= 9; j++)
+	for (c = 1; c <= 9; c++)
 	{
 		if (c > i)
 		{
