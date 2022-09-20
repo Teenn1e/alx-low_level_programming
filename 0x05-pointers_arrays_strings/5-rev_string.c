@@ -8,7 +8,7 @@
 
 void rev_string(char *s)
 {
-	int count = 0, i, j;
+	int count = 0, j,i;
 	char *str, temp;
 
 	while (count >= 0)
