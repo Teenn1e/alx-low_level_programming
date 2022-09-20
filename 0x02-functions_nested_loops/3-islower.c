@@ -3,7 +3,7 @@
  * _islower - function to check for lowercase character
  * @c:  int to use for the argument of the function
  *
- * Return: 0
+ * Return: 1, 0 if otherwise
  */
 int _islower(int c)
 {
